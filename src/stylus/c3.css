@@ -1,0 +1,24 @@
+.theme--light .c3-chart-arc text {
+  fill: #455A64;
+  font-size: 13px
+}
+.theme--dark .c3-chart-arc text {
+  fill: #c3cbe4;
+  font-size: 13px
+}
+
+.theme--light .c3-chart-arcs .c3-chart-arcs-gauge-max, .c3-chart-arcs .c3-chart-arcs-gauge-min {
+  fill: #455A64;
+}
+
+.theme--dark .c3-chart-arcs .c3-chart-arcs-gauge-max, .c3-chart-arcs .c3-chart-arcs-gauge-min {
+  fill: #c3cbe4;
+}
+
+.theme--light .c3-legend-item {
+  fill: #455A64;
+}
+
+.theme--dark .c3-legend-item {
+  fill: #c3cbe4;
+}

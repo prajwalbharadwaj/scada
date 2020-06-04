@@ -1,0 +1,14 @@
+.theme--dark .apexcharts-tooltip {
+  background-color: #1E1E1E !important;
+  color: #c3cbe4;
+}
+.theme--light .apexcharts-tooltip {
+  background-color: #fff !important;
+  color: #000;
+}
+
+/* .apexcharts-tooltip.x {
+  background-color: hsl(0, 100%, 50%) !important;
+  color: red;
+
+} */

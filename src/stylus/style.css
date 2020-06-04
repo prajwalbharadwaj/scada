@@ -1,0 +1,440 @@
+/* This is global style sheet can be used in any page
+this is linked to the app.vue where it is access to all the pages */
+
+/* FONT FAMILY - NUNITO FONTS */
+/* .font-family-nunito {
+  font-family: 'NunitoFont' !important;
+} */
+
+
+
+/* TEXT */
+.theme--light .primary-text {
+  color: #455A64 !important;
+}
+
+.theme--dark .primary-text {
+  color: #c3cbe4 !important;
+}
+
+.theme--light .secondary-text {
+  color: #67757C !important;
+}
+
+.theme--dark .secondary-text {
+  color: #a6b0cf !important;
+}
+
+.tertiary-text {
+  color: #99ABB4 !important;
+}
+
+
+/* FONT SIZE */
+.fs-10 {
+  font-size: 10px !important;
+}
+
+.fs-12 {
+  font-size: 12px !important;
+}
+
+.fs-14 {
+  font-size: 14px !important;
+}
+
+.fs-18 {
+  font-size: 18px !important;
+}
+
+.fs-24 {
+  font-size: 24px !important;
+}
+
+.fs-28 {
+  font-size: 28px !important;
+}
+
+.fs-34 {
+  font-size: 34px !important;
+}
+
+.fs-38 {
+  font-size: 38px !important;
+}
+
+
+/* FONT WEIGHTS FROM 100- 900 */
+.fw-100 {
+  font-weight: 100 !important;
+}
+.fw-200 {
+  font-weight: 200 !important;
+}
+.fw-300 {
+  font-weight: 300 !important;
+}
+.fw-400 {
+  font-weight: 400 !important;
+}
+.fw-500 {
+  font-weight: 500 !important;
+}
+.fw-600 {
+  font-weight: 600 !important;
+}
+.fw-700 {
+  font-weight: 700 !important;
+}
+.fw-800 {
+  font-weight: 800 !important;
+}
+.fw-900 {
+  font-weight: 900 !important;
+}
+.fw-bold {
+  font-weight: bold !important;
+}
+
+
+
+/* CARD HEIGHT */
+.card-height-250 {
+  min-height: 250px !important;
+  max-height: 250px !important;
+  overflow-y: auto !important;
+}
+
+.card-height-300 {
+  max-height: 300px !important;
+  overflow-y: auto;
+}
+
+.max-card-height-350 {
+  max-height: 350px !important;
+  overflow-y: auto;
+}
+
+.card-height-400 {
+  min-height: 400px;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.card-max-height-400 {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.card-height-450 {
+  min-height: 450px !important;
+  max-height: 450px !important;
+  overflow-y: auto !important;
+}
+
+.card-max-height-450 {
+  max-height: 450px;
+  overflow-y: auto;
+}
+
+.card-height-850 {
+  min-height: 850px !important;
+  max-height: 850px !important;
+  overflow-y: auto !important;
+}
+
+
+/* WIDTH */
+.width-50 {
+  min-width: 50px !important;
+}
+
+.width-100 {
+  min-width: 100px !important;
+}
+
+.min-max-width-150 {
+  min-width: 150px;
+  max-width: 150px;
+  overflow: hidden;
+}
+
+
+
+/* flex */
+.justify-content-flex-evenly{
+  justify-content: space-evenly !important;
+}
+
+
+
+
+
+
+
+
+/* CARD CUSTOM TITLE */
+.theme--light .cus-title {
+  font-size: 20px !important;
+  color: #4A596A !important;
+  font-weight: 500;
+}
+
+.theme--dark .cus-title {
+  font-size: 20px !important;
+  color: #c3cbe4 !important;
+  font-weight: 500;
+}
+
+
+
+
+/* PRICING PAGE */
+.pricing-card-title {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #6c757d !important;
+  font-weight: bold;
+}
+
+.pricing-icon {
+  color: #5BBD8A;
+  background-color: #C8E6C9 !important;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  border-radius: 50%;
+}
+
+
+/* PADDING AND MARGIN */
+.p-a-10 {
+  padding: 20px !important;
+}
+
+.p-t-10 {
+  padding-top: 20px !important;
+}
+
+.p-x-10 {
+  padding-right: 20px !important;
+  padding-left: 20px !important;
+}
+
+.p-a-20 {
+  padding: 20px !important;
+}
+
+.p-t-20 {
+  padding-top: 20px !important;
+}
+
+.p-x-20 {
+  padding-right: 20px !important;
+  padding-left: 20px !important;
+}
+
+
+/* BORDER AND BORDER COLOR */
+.bb-1 {
+  border-bottom: 1px solid !important
+}
+
+.bl-1 {
+  border-left: 1px solid;
+}
+
+.bl-5 {
+  border-left: 5px solid;
+}
+
+.br-1 {
+  border-right: 1px solid !important;
+}
+
+.bt-1 {
+  border-top: 1px solid !important;
+}
+
+.theme--light .border-normal {
+  border-color: #eeeeee !important;
+}
+
+.theme--dark .border-normal {
+  border-color: #282D4D !important;
+}
+
+.border-error {
+  border-color: #ED4635;
+}
+
+.border-success {
+  border-color: #52AF50;
+}
+
+
+/* CARD DIVIDER */
+.theme--light .divider:not(:last-child) {
+  border-bottom: 1px solid #eee;
+}
+
+.theme--dark .divider:not(:last-child) {
+  border-bottom: 1px solid #282D4D;
+}
+
+
+/* IMAGE BORDER RADIUS */
+.border-radius-img-50 img {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+
+/* STATUS COLOR */
+.status-active {
+  color: #fff !important;
+  background-color: #52AF50 !important;
+}
+
+.status-inactive {
+  color: #fff !important;
+  background-color: #ED4635 !important;
+}
+
+
+
+/* CIRCLE ACTIVE INDICATOR */
+.circle-status {
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.circle-status-inactive {
+  background-color: #ED4635;
+}
+
+.circle-status-active {
+  background-color: #52AF50;
+}
+
+
+/* ARROW COLOR */
+.arrow-green-text {
+  color: #52AF50
+}
+
+.arrow-red-text {
+  color: #ED4635
+}
+
+
+/* BORDER FOR ALERT */
+.border-new {
+  border-color: #ED4635;
+}
+
+.border-acknowledge {
+  border-color: #F6B132;
+}
+
+.border-resolved {
+  border-color: #52AF50;
+}
+
+.alert-new {
+  color: #fff !important;
+  background-color: #ED4635 !important;
+}
+
+.alert-acknowledge {
+  color: #fff !important;
+  background-color: #F6B132 !important;
+}
+
+.alert-resolved {
+  color: #fff !important;
+  background-color: #52AF50 !important;
+}
+
+.alert-title-text {
+  /* color: #364A63 !important;
+  font-weight: bold; */
+}
+
+
+/* BACKGROUND */
+.bg-green {
+  color: #fff !important;
+  background-color: #52AF50 !important;
+}
+
+.bg-red {
+  color: #fff !important;
+  background-color: #ED4635 !important;
+}
+
+.bg-grey {
+  color: #fff !important;
+  background-color: #9E9E9E !important;
+}
+
+
+.anchor-link {
+  text-decoration: none;
+  color: #000000 !important;
+}
+
+.list-item-subtitle {
+  color: #99abb4 !important;
+}
+
+
+
+
+/* CHIP */
+.table-chip {
+  display: inherit !important;
+}
+
+
+/* ANIMATION */
+.infinite-animate-1s {
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+
+
+.theme--dark .v-card {
+  background-color: #121212 !important;
+}
+.theme--dark.v-card.v-card--outlined {
+  border: 1px solid #282D4D !important;
+}
+
+
+
+
+
+
+
+.theme--dark .v-list {
+  background-color: #121212 !important;
+}
+
+.theme--dark .v-btn-toggle>.v-btn.v-btn {
+  background-color: #121212 !important;
+}
+
+.theme--dark .v-expansion-panel {
+  background-color: #121212 !important;
+}
+
+.theme--dark .v-expansion-panels.v-expansion-panels--focusable .v-expansion-panel-header--active::before {
+  opacity: 0.1 !important;
+}
